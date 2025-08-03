@@ -50,7 +50,7 @@ pdf-qa-app/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourname/pdf-qa-app.git
+git clone https://github.com/lijipaloalto/pdf-qa-app.git
 cd pdf-qa-app
 ```
 
