@@ -1,0 +1,21 @@
+// This file is used by Visual Studio Code to configure the debugging environment for the FastAPI and Streamlit applications.
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run FastAPI (Uvicorn)",
+      "type": "python",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.main:app", "--reload", "--port", "8000"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run Streamlit",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/streamlit_app.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
