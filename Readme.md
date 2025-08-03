@@ -78,7 +78,7 @@ uvicorn main:app --reload --port 8000
 ```
 #### Streamlit UI
 ```bash
-streamlit run streamlit_app.py
+streamlit run streamlit_app/streamlit_app.py
 ```
 
 ---
@@ -89,10 +89,6 @@ streamlit run streamlit_app.py
 pytest tests/
 ```
 
-## / Run the App
-```bash
-streamlit run streamlit_app/streamlit_app.py
-```
 ---
 
 ## ⚙️ Configuration
